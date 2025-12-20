@@ -6,12 +6,13 @@ pipeline {
         stage('Checkout Code') {
             steps {
                 git branch: 'main',
-                url: 'https://github.com/ThilinaJayamal/jenkins-ci-cd-demo.git'
+                    url: 'https://github.com/ThilinaJayamal/jenkins-ci-cd-demo.git'
+            }
         }
 
         stage('Install Dependencies') {
             steps {
-                bat 'pip install -r requirements.txt'
+                bat 'python -m pip install --no-cache-dir -r requirements.txt'
             }
         }
 
