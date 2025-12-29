@@ -124,7 +124,7 @@ Navigate back to the original repository and click the "New Pull Request" button
 
 ### Reporting Issues
 
-If you find a bug or have a suggestion for improvement, please open an issue in the [GitHub Issues](https://www.google.com/search?q=https://github.com/ThilinaJayamal/jenkins-ci-cd-demo/issues) section of the repository.
+If you find a bug or have a suggestion for improvement, please open an issue in the [GitHub Issues](https://github.com/ThilinaJayamal/jenkins-ci-cd-demo/issues) section of the repository.
 
 ---
 
